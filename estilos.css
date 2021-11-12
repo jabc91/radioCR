@@ -1,0 +1,62 @@
+h1{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: castellar;
+  text-shadow: 5px 2px black;
+  background-image: linear-gradient(to left, #161569,#00B7DA , #161569);
+  width: 650px;
+  margin: auto;
+  border-style: dashed;
+  border-color: white;
+  position: relative;
+  top: 30px;
+}
+
+.cuadritos{
+  position: relative;
+  top: 55px;
+  padding: 10px;
+  background: skyblue;
+  align-content: center;
+  justify-content: center;
+  display: block;
+  height: 100vh;
+
+}
+
+.botongeneral{
+  border: 3px solid rgba(0,0,0,0.8);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  font-family: "Algerian";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #FFF;
+  background-size: 40%;
+  transition: 3s;
+
+}
+
+.boton1{
+  background-image: linear-gradient(to left, #00B7DA, #161569, #00B7DA);
+}
+
+.boton2{
+  background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+}
+
+.boton3{
+  background-image: linear-gradient(to left, #FFCAE3, #FF499D, #FFCAE3)
+}
+
+.boton4{
+  background-image: linear-gradient(to left, #FF5733, #B81B57, #FF5733)
+}
+
+.botongeneral:hover{
+  background-position: right;
+  transform: rotate(360deg);
+}
